@@ -2,8 +2,9 @@ package com.leszko.calculator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
+
 /**
- * Calculator test.
+ * Calculator test. Bez zmian. G.
  */
 public class CalculatorTest {
     private Calculator calculator = new Calculator();
@@ -13,4 +14,3 @@ public class CalculatorTest {
         assertEquals(5, calculator.sum(2, 3));
     }
 }
-
